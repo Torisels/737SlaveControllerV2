@@ -1,0 +1,14 @@
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/rebuild_cache.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_UPLOADFS.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_BUILD.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_CLEAN.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_UPLOAD.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_MONITOR.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_TEST.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_PROGRAM.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/737SlaveV2.dir
+C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/edit_cache.dir
