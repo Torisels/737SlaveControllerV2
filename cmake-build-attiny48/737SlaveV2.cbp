@@ -218,6 +218,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/TWI/twi.c">
+			<Option target="737SlaveV2"/>
+		</Unit>
+		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/TWI/twi.h">
+			<Option target="737SlaveV2"/>
+		</Unit>
 		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/examples/SFRRanger_reader/SFRRanger_reader.ino">
 			<Option target="737SlaveV2"/>
 		</Unit>
@@ -242,10 +248,10 @@
 		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/library.properties">
 			<Option target="737SlaveV2"/>
 		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/Wire1.cpp">
+		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/Wire.cpp">
 			<Option target="737SlaveV2"/>
 		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/Wire1.h">
+		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/Wire.h">
 			<Option target="737SlaveV2"/>
 		</Unit>
 		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/utility/twi.c">
@@ -254,7 +260,7 @@
 		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/utility/twi.h">
 			<Option target="737SlaveV2"/>
 		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/src/main.cpp">
+		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/src/main.c">
 			<Option target="737SlaveV2"/>
 		</Unit>
 		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/CMakeLists.txt">

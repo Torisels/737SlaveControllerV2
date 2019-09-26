@@ -265,32 +265,59 @@ PLATFORMIO_DEVICE_LIST/fast:
 	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/build
 .PHONY : 737SlaveV2/fast
 
-lib/Wire/src/Wire1.obj: lib/Wire/src/Wire1.cpp.obj
+lib/TWI/twi.obj: lib/TWI/twi.c.obj
 
-.PHONY : lib/Wire/src/Wire1.obj
+.PHONY : lib/TWI/twi.obj
 
 # target to build an object file
-lib/Wire/src/Wire1.cpp.obj:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire1.cpp.obj
-.PHONY : lib/Wire/src/Wire1.cpp.obj
+lib/TWI/twi.c.obj:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/TWI/twi.c.obj
+.PHONY : lib/TWI/twi.c.obj
 
-lib/Wire/src/Wire1.i: lib/Wire/src/Wire1.cpp.i
+lib/TWI/twi.i: lib/TWI/twi.c.i
 
-.PHONY : lib/Wire/src/Wire1.i
+.PHONY : lib/TWI/twi.i
 
 # target to preprocess a source file
-lib/Wire/src/Wire1.cpp.i:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire1.cpp.i
-.PHONY : lib/Wire/src/Wire1.cpp.i
+lib/TWI/twi.c.i:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/TWI/twi.c.i
+.PHONY : lib/TWI/twi.c.i
 
-lib/Wire/src/Wire1.s: lib/Wire/src/Wire1.cpp.s
+lib/TWI/twi.s: lib/TWI/twi.c.s
 
-.PHONY : lib/Wire/src/Wire1.s
+.PHONY : lib/TWI/twi.s
 
 # target to generate assembly for a file
-lib/Wire/src/Wire1.cpp.s:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire1.cpp.s
-.PHONY : lib/Wire/src/Wire1.cpp.s
+lib/TWI/twi.c.s:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/TWI/twi.c.s
+.PHONY : lib/TWI/twi.c.s
+
+lib/Wire/src/Wire.obj: lib/Wire/src/Wire.cpp.obj
+
+.PHONY : lib/Wire/src/Wire.obj
+
+# target to build an object file
+lib/Wire/src/Wire.cpp.obj:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.obj
+.PHONY : lib/Wire/src/Wire.cpp.obj
+
+lib/Wire/src/Wire.i: lib/Wire/src/Wire.cpp.i
+
+.PHONY : lib/Wire/src/Wire.i
+
+# target to preprocess a source file
+lib/Wire/src/Wire.cpp.i:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.i
+.PHONY : lib/Wire/src/Wire.cpp.i
+
+lib/Wire/src/Wire.s: lib/Wire/src/Wire.cpp.s
+
+.PHONY : lib/Wire/src/Wire.s
+
+# target to generate assembly for a file
+lib/Wire/src/Wire.cpp.s:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.s
+.PHONY : lib/Wire/src/Wire.cpp.s
 
 lib/Wire/src/utility/twi.obj: lib/Wire/src/utility/twi.c.obj
 
@@ -319,32 +346,32 @@ lib/Wire/src/utility/twi.c.s:
 	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/utility/twi.c.s
 .PHONY : lib/Wire/src/utility/twi.c.s
 
-src/main.obj: src/main.cpp.obj
+src/main.obj: src/main.c.obj
 
 .PHONY : src/main.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/main.c.obj:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-src/main.i: src/main.cpp.i
+src/main.i: src/main.c.i
 
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/main.c.i:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-src/main.s: src/main.cpp.s
+src/main.s: src/main.c.s
 
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main.c.s:
+	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -366,9 +393,12 @@ help:
 	@echo ... PLATFORMIO_DEVICE_LIST
 	@echo ... 737SlaveV2
 	@echo ... edit_cache
-	@echo ... lib/Wire/src/Wire1.obj
-	@echo ... lib/Wire/src/Wire1.i
-	@echo ... lib/Wire/src/Wire1.s
+	@echo ... lib/TWI/twi.obj
+	@echo ... lib/TWI/twi.i
+	@echo ... lib/TWI/twi.s
+	@echo ... lib/Wire/src/Wire.obj
+	@echo ... lib/Wire/src/Wire.i
+	@echo ... lib/Wire/src/Wire.s
 	@echo ... lib/Wire/src/utility/twi.obj
 	@echo ... lib/Wire/src/utility/twi.i
 	@echo ... lib/Wire/src/utility/twi.s

@@ -5,7 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Gustaw/source/repos/737SlaveV2/lib/TWI/twi.c" "C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/737SlaveV2.dir/lib/TWI/twi.c.obj"
   "C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/utility/twi.c" "C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/737SlaveV2.dir/lib/Wire/src/utility/twi.c.obj"
+  "C:/Users/Gustaw/source/repos/737SlaveV2/src/main.c" "C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/737SlaveV2.dir/src/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -27,8 +29,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "C:/Users/Gustaw/.platformio/packages/tool-unity"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/Wire1.cpp" "C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire1.cpp.obj"
-  "C:/Users/Gustaw/source/repos/737SlaveV2/src/main.cpp" "C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/737SlaveV2.dir/src/main.cpp.obj"
+  "C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/Wire.cpp" "C:/Users/Gustaw/source/repos/737SlaveV2/cmake-build-attiny48/CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

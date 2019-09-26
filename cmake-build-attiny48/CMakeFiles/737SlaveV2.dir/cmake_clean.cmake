@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire1.cpp.obj"
+  "CMakeFiles/737SlaveV2.dir/lib/TWI/twi.c.obj"
+  "CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.obj"
   "CMakeFiles/737SlaveV2.dir/lib/Wire/src/utility/twi.c.obj"
-  "CMakeFiles/737SlaveV2.dir/src/main.cpp.obj"
+  "CMakeFiles/737SlaveV2.dir/src/main.c.obj"
   "737SlaveV2.pdb"
   "737SlaveV2.exe"
   "737SlaveV2.exe.manifest"
