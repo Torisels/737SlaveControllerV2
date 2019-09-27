@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/737SlaveV2.dir/lib/TWI/twi.c.obj"
-  "CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.obj"
-  "CMakeFiles/737SlaveV2.dir/lib/Wire/src/utility/twi.c.obj"
   "CMakeFiles/737SlaveV2.dir/src/main.c.obj"
   "737SlaveV2.pdb"
   "737SlaveV2.exe"
@@ -10,6 +8,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C CXX)
+foreach(lang C)
   include(CMakeFiles/737SlaveV2.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

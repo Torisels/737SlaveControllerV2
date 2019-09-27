@@ -146,14 +146,7 @@
 				<Compiler>
 					<Add directory="C:/Users/Gustaw/source/repos/737SlaveV2/include"/>
 					<Add directory="C:/Users/Gustaw/source/repos/737SlaveV2/src"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/cores/tiny"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/variants/tinyX8"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/ATTinyCore/src"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/EEPROM"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/SPI"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/Servo/src"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/SoftwareSerial"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/Wire/src"/>
+					<Add directory="C:/Users/Gustaw/source/repos/737SlaveV2/lib/TWI"/>
 					<Add directory="C:/Users/Gustaw/.platformio/packages/toolchain-atmelavr/avr/include"/>
 					<Add directory="C:/Users/Gustaw/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
 					<Add directory="C:/Users/Gustaw/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
@@ -181,14 +174,7 @@
 				<Compiler>
 					<Add directory="C:/Users/Gustaw/source/repos/737SlaveV2/include"/>
 					<Add directory="C:/Users/Gustaw/source/repos/737SlaveV2/src"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/cores/tiny"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/variants/tinyX8"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/ATTinyCore/src"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/EEPROM"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/SPI"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/Servo/src"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/SoftwareSerial"/>
-					<Add directory="C:/Users/Gustaw/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/Wire/src"/>
+					<Add directory="C:/Users/Gustaw/source/repos/737SlaveV2/lib/TWI"/>
 					<Add directory="C:/Users/Gustaw/.platformio/packages/toolchain-atmelavr/avr/include"/>
 					<Add directory="C:/Users/Gustaw/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
 					<Add directory="C:/Users/Gustaw/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
@@ -222,42 +208,6 @@
 			<Option target="737SlaveV2"/>
 		</Unit>
 		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/TWI/twi.h">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/examples/SFRRanger_reader/SFRRanger_reader.ino">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/examples/digital_potentiometer/digital_potentiometer.ino">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/examples/master_reader/master_reader.ino">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/examples/master_writer/master_writer.ino">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/examples/slave_receiver/slave_receiver.ino">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/examples/slave_sender/slave_sender.ino">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/keywords.txt">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/library.properties">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/Wire.cpp">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/Wire.h">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/utility/twi.c">
-			<Option target="737SlaveV2"/>
-		</Unit>
-		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/lib/Wire/src/utility/twi.h">
 			<Option target="737SlaveV2"/>
 		</Unit>
 		<Unit filename="C:/Users/Gustaw/source/repos/737SlaveV2/src/main.c">

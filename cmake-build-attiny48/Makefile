@@ -292,60 +292,6 @@ lib/TWI/twi.c.s:
 	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/TWI/twi.c.s
 .PHONY : lib/TWI/twi.c.s
 
-lib/Wire/src/Wire.obj: lib/Wire/src/Wire.cpp.obj
-
-.PHONY : lib/Wire/src/Wire.obj
-
-# target to build an object file
-lib/Wire/src/Wire.cpp.obj:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.obj
-.PHONY : lib/Wire/src/Wire.cpp.obj
-
-lib/Wire/src/Wire.i: lib/Wire/src/Wire.cpp.i
-
-.PHONY : lib/Wire/src/Wire.i
-
-# target to preprocess a source file
-lib/Wire/src/Wire.cpp.i:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.i
-.PHONY : lib/Wire/src/Wire.cpp.i
-
-lib/Wire/src/Wire.s: lib/Wire/src/Wire.cpp.s
-
-.PHONY : lib/Wire/src/Wire.s
-
-# target to generate assembly for a file
-lib/Wire/src/Wire.cpp.s:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/Wire.cpp.s
-.PHONY : lib/Wire/src/Wire.cpp.s
-
-lib/Wire/src/utility/twi.obj: lib/Wire/src/utility/twi.c.obj
-
-.PHONY : lib/Wire/src/utility/twi.obj
-
-# target to build an object file
-lib/Wire/src/utility/twi.c.obj:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/utility/twi.c.obj
-.PHONY : lib/Wire/src/utility/twi.c.obj
-
-lib/Wire/src/utility/twi.i: lib/Wire/src/utility/twi.c.i
-
-.PHONY : lib/Wire/src/utility/twi.i
-
-# target to preprocess a source file
-lib/Wire/src/utility/twi.c.i:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/utility/twi.c.i
-.PHONY : lib/Wire/src/utility/twi.c.i
-
-lib/Wire/src/utility/twi.s: lib/Wire/src/utility/twi.c.s
-
-.PHONY : lib/Wire/src/utility/twi.s
-
-# target to generate assembly for a file
-lib/Wire/src/utility/twi.c.s:
-	$(MAKE) -f CMakeFiles\737SlaveV2.dir\build.make CMakeFiles/737SlaveV2.dir/lib/Wire/src/utility/twi.c.s
-.PHONY : lib/Wire/src/utility/twi.c.s
-
 src/main.obj: src/main.c.obj
 
 .PHONY : src/main.obj
@@ -396,12 +342,6 @@ help:
 	@echo ... lib/TWI/twi.obj
 	@echo ... lib/TWI/twi.i
 	@echo ... lib/TWI/twi.s
-	@echo ... lib/Wire/src/Wire.obj
-	@echo ... lib/Wire/src/Wire.i
-	@echo ... lib/Wire/src/Wire.s
-	@echo ... lib/Wire/src/utility/twi.obj
-	@echo ... lib/Wire/src/utility/twi.i
-	@echo ... lib/Wire/src/utility/twi.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -1,60 +1,76 @@
 #include <twi.h>
 #include <twi.c>
-//#include <Arduino.h>
-
-
+#include <util/delay.h>
 #define BOARD_ADDRESS 0xFA
 #define MESS_DATA_TRANSMIT 0xB2
-
-uint8_t rxBuffer[32];
+#define MESS_SETUP_MODE 0xB3
+#define MESS_OUTPUT 0xB4
 
 void onReceiveService(uint8_t* inBytes, int numBytes)
 {
-    // don't bother if user hasn't registered a callback
-//  if(!user_onReceive){
-//    return;
-//  }
-    // don't bother if rx buffer is in use by a master requestFrom() op
-    // i know this drops data, but it allows for slight stupidity
-    // meaning, they may not have read all the master requestFrom() data yet
-//    if(rxBufferIndex < rxBufferLength){
-//        return;
-//    }
-    // copy twi rx buffer into local read buffer
-    // this enables new reads to happen in parallel
-    for(uint8_t i = 0; i < numBytes; ++i){
-        rxBuffer[i] = inBytes[i];
+    uint8_t index = 0;
+
+    //First byte: check if data was transmitted to correct MCU
+    if(inBytes[index] != BOARD_ADDRESS)
+        return;
+
+    //Second byte is flag
+    switch (inBytes[++index])
+    {
+        //Register order: DDRA, PINA,DDRB,PINB,DDRC,PINC,DDRD,PIND. Timers will be implemented
+        case MESS_SETUP_MODE:
+        {
+            DDRA = inBytes[++index];
+            PORTA = inBytes[++index];
+            DDRB = inBytes[++index];
+            PORTB = inBytes[++index];
+            DDRC = inBytes[++index];
+            PORTC = inBytes[++index];
+            DDRD = inBytes[++index];
+            PORTD = inBytes[++index];
+            break;
+        }
+
+        case MESS_OUTPUT:
+        {
+            PORTA = inBytes[++index];
+            PORTB = inBytes[++index];
+            PORTC = inBytes[++index];
+            PORTD = inBytes[++index];
+            break;
+        }
+        default:
+            break;
     }
-    // set rx iterator vars
-//    rxBufferIndex = 0;
-//    rxBufferLength = numBytes;
-    // alert user program
-    //user_onReceive(numBytes);
 }
 
 // behind the scenes function that is called when data is requested
-void onRequestService(void)
+void onRequestService()
 {
-    uint8_t data[] = {MESS_DATA_TRANSMIT,BOARD_ADDRESS,PINA,PINB,PINC,PIND};
+     uint8_t data[] = {MESS_DATA_TRANSMIT,BOARD_ADDRESS,PINA,PINB,PINC,PIND};
      twi_transmit(data, sizeof(data));
-}
 
+     //debugging LED
+     PORTA ^= 1 << PA0;
+}
 
 void setup()
 {
-    twi_init();
+    sei();
+    twi_setAddress(0xFA);
     twi_attachSlaveTxEvent(onRequestService); // default callback must exist
     twi_attachSlaveRxEvent(onReceiveService); // default callback must exist
-    twi_setAddress(BOARD_ADDRESS);
-
+    twi_init();
 }
-
 
 
 int  main()
 {
-
+     setup();
+     for(;;)
+     {
+         _delay_ms(100);
+     }
 }
 
-// function that executes whenever data is requested by master
-// this function is registered as an event, see setup()
+
