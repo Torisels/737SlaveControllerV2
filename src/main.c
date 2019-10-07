@@ -47,7 +47,7 @@ void onReceiveService(uint8_t* inBytes, int numBytes)
 // behind the scenes function that is called when data is requested
 void onRequestService()
 {
-     uint8_t data[] = {MESS_DATA_TRANSMIT,BOARD_ADDRESS,PINA,PINB,PINC,PIND};
+     uint8_t data[] = {BOARD_ADDRESS,PINA,PINB,PINC,PIND};
      twi_transmit(data, sizeof(data));
 
      //debugging LED
@@ -57,6 +57,7 @@ void onRequestService()
 void setup()
 {
     sei();
+    DDRA |= 1 <<PA0;
     twi_setAddress(0xFA);
     twi_attachSlaveTxEvent(onRequestService); // default callback must exist
     twi_attachSlaveRxEvent(onReceiveService); // default callback must exist
@@ -69,7 +70,7 @@ int  main()
      setup();
      for(;;)
      {
-         _delay_ms(100);
+         _delay_ms(10);
      }
 }
 
